@@ -20,7 +20,7 @@ void *hashTest() {
   int Cond = (int)(rand() * 3.0 / RAND_MAX) + 1;
 
 //Chooses and runs function
-  printf("The choosen function is: %d \n", Cond);
+  //printf("The choosen function is: %d \n", Cond);
   if(Cond == 1){
   pthread_spin_unlock(lock);
   pthread_spin_lock(lock);
